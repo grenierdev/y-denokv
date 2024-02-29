@@ -1,0 +1,79 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:yjs@13.6.12": "npm:yjs@13.6.12"
+    },
+    "npm": {
+      "isomorphic.js@0.2.5": {
+        "integrity": "sha512-PIeMbHqMt4DnUP3MA/Flc0HElYjMXArsw1qwJZcm9sqR8mq3l8NYizFMty0pWwE/tzIGH3EKK5+jes5mAr85yw==",
+        "dependencies": {}
+      },
+      "lib0@0.2.89": {
+        "integrity": "sha512-5j19vcCjsQhvLG6mcDD+nprtJUCbmqLz5Hzt5xgi9SV6RIW/Dty7ZkVZHGBuPOADMKjQuKDvuQTH495wsmw8DQ==",
+        "dependencies": {
+          "isomorphic.js": "isomorphic.js@0.2.5"
+        }
+      },
+      "yjs@13.6.12": {
+        "integrity": "sha512-KOT8ILoyVH2f/PxPadeu5kVVS055D1r3x1iFfJVJzFdnN98pVGM8H07NcKsO+fG3F7/0tf30Vnokf5YIqhU/iw==",
+        "dependencies": {
+          "lib0": "lib0@0.2.89"
+        }
+      }
+    }
+  },
+  "remote": {
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/array-2ab53c20.js": "9af80e9dc26f91e4c2f2901a416794598e882ffb2b38ac1fcf59148a6c574937",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/binary-f514bf5f.js": "0256b6dc897bd6e3a5d66d91098b1ce3e1842c0841e4a06fdaf58fee2ea16fc4",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/buffer-9918479a.js": "b918048c8b92a335f0f611ab7130c7407d1a76001d7e36b9b30cf621baeb62d3",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/buffer-es6-f1f37f6e.js": "a2c58b8534e597e9a44b5c85a27d09ee9851d4183c5373bbd4288a653244fa39",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/conditions-786f1ced.js": "c55d82e93045927f699a7041fa27997f0cd4c7a4e71f9497c90fd1b18245c681",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/decoding-0ac441bb.js": "511ba4628f3fa20aafbd743a334b6f18d4d8ca6986a1dc0e62c5484c2b328b43",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/dom-94de4255.js": "9e3b475f4f209f015e3a32efd5a6c391af21c0ba8592c78baede112c44635d12",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/encoding-2e6721ce.js": "875b374a9d7041f92478476f32dc1a493f52619b6a75a3949a777df84cd88d8c",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/environment-834e05b7.js": "d3c04d1c6f0d7843d50be2c984849b3d125931d55d2f8ea5d6d940eced7b5180",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/error-d21328ff.js": "8474d2f648222a25cca8d4c183a5a1024d67e0668bcb61d3f5a5974f8a19a066",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/eventloop-85b0d5a8.js": "346fd048fdd89b6a6c10029d3b1d024b05b7d6f2eaf10262bfa4de2a62f3a0fa",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/function-0715bfc1.js": "df058da5575add12f1734eefdb9fbb280d6ab2a920848b8f021a72fa62e5e898",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/iterator-20bde6ee.js": "496f613113df726f00095b08f4d6eb76c71f7bb02beadeb4916f2f487808f807",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/json-282334fd.js": "4778c144ee7449d12513f8d5a3a57da00344fff0126fc05d83d67e79b0cd2068",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/logging-71438f0c.js": "7c89b49d1a98638e8109555588f96c247c8da28f65cfd011ad44c2ef37d6a126",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/map-66720f7a.js": "527d1d0cf71718b621eb4c7ddce7f366d9d783e53bdde7370f06ca8ebf0c058e",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/math-03988d6e.js": "2acbf2ff5a0ec7d54ba67b034c811caa2dcbb72ac3e01007ef5ec576a1eea06d",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/number-ae2a0a37.js": "1b4859ecabefb58a88d7bc7b921009e339b7371bf91ddfe17e522574a483b67b",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/object-c365ac4b.js": "49227aae6e7ddbfafbfc346f65795b8029502fbb171a1f361be39980f69533b8",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/pair-3fa8ad8b.js": "ed4292d6f3a2ecee395b5e56c397046664244f088a7d00e89c52a96f2fb99b48",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/process-2545f00a.js": "585ed72385871b7f3e647602b642794cd837ad34db418f038cb1bfd8d618e382",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/promise-068a70be.js": "cc4727d4ba600550c611b36972fc3759d03fd346cf1a8aa89de55c0c6c24ed46",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/set-759291d1.js": "d1f5c94cb4f91e6f1f8c53449cdc62fe667a093a0767528cb2374b571f0ce41a",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/string-0e03fac1.js": "875671f5dcf4045a654f28244c739bcf7f0cf5b0fb7efa8f1cf8841d95eaf33e",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/symbol-7647b7da.js": "203b118a6cb767b11131855f0f7a1166e55f2715fd83eb09ca84f4c64875eb63",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/time-5deb5af1.js": "a0f64715b878e81bf4c0bb36dee07a02bdc520ec8f1002341d202fe4be9e9a67",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/common/webcrypto-f21c0b80.js": "5338ef8b3e92ce9027a1e6d2d121015bfcf302e8a394d779fe3d83e7de91fd11",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/array.js": "ac15ab81821ca1b1b2b5429106cca558fbc04b9f88e40b1c6b5b4e93956a56d9",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/binary.js": "10a25f56588c7bbc04ee5c13cefb42de5720b046c3df3fe9691f5d3d22a98316",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/buffer.js": "e0a8a0a3803fb1cb3fbccce51e5114cccdaa7cb40ca594c8b93d54a4ab93e8d2",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/decoding.js": "fe2ada4edb7a45e7e062da46c10d99fee37cd94916a86becec280a9390841084",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/encoding.js": "f6161e0a842e1266e32636397a9e0fdcbc2942d5c98cf8b453390b9cb5efdaa2",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/error.js": "624fd17de00c248a866e901222867b3ef0b8859b08f68fb3282e6b6c3d79a2e7",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/function.js": "72c5aceee9289b377bbc665b6b555c900d79091d65955ca1a72a32cdb50e3a7f",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/iterator.js": "a4affeb46cb7bc63f31fd1258b95b4ad542b7ba111a627e029716ecb731c7de4",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/logging.js": "abd679ed8824bdbdfe1589a96f91a484b6df7c567103a6d6249ff22d94a0e70f",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/map.js": "f2de264d6f8d789eac52fbf4ec33fe829ad40005c61e67878162222e87f89fb6",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/math.js": "148437f19b6ac25215bc66dc623c08ef0d3fe2399b942bee9ab371bb9100bdcc",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/metric.js": "81a39eaa9ca106469265ae26f1fc4c32b5bfeaf2a1abbebef2cf998d4ed46728",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/object.js": "9079472a22efa0bf681f3acd78e60e054541abac72fc665df8947c32233aefae",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/observable.js": "87ff0b60de3df982d04013884d139af5219015c8ede2669fd1486d9ad624ccd6",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/promise.js": "06559e6310572c55b09b12d9e6325c2eb4a97c52c76d917fa8cd192e4861d46b",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/random.js": "e4f270e7a06f350c7ea0af565ffd974ca0d0e681c49342ea563ad06208a1fa78",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/set.js": "e28abb20c2b76fead8d9aef6acf1ffa49969dfee5c9640dd7c5514a74b197b2d",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/storage.js": "5efe45559e67087c794ee6f1798d0e3c581a281595797d13893ff0f96e87d25b",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/string.js": "d7d5434f94055942db3b990844796f4c13e14a26f338958bc6b14c66bf9dadde",
+    "https://cdn.skypack.dev/-/lib0@v0.2.89-tQqw09R6XG3N1P71jYz2/dist=es2019,mode=imports/optimized/lib0/time.js": "9ae10f7aedb544d663864effc5fa6f43d4b0dd25a7dde13a39c7aa53eb7ddf1c",
+    "https://cdn.skypack.dev/-/yjs@v13.6.12-bVgIoQXELOChAbtQQX6N/dist=es2019,mode=imports/optimized/common/global-5c50bad9.js": "d576476edcc4f37447ca9c1434841e460c051cf5e7e17e245f20caa950de0f65",
+    "https://cdn.skypack.dev/-/yjs@v13.6.12-bVgIoQXELOChAbtQQX6N/dist=es2019,mode=imports/optimized/common/yjs-3405adf2.js": "110ab30226e530ec1d7a45c5931101345608e07adf0500d89784f6a2b998a346",
+    "https://cdn.skypack.dev/-/yjs@v13.6.12-bVgIoQXELOChAbtQQX6N/dist=es2019,mode=imports/optimized/yjs.js": "c9a2e3f88e22de9f3cfad80f35ce0fdbf41f1ab185c08a5d5c43d8552c11cb65",
+    "https://cdn.skypack.dev/yjs": "9af64956aaf0d852078f59720409c9c70a15bb5b20dc2653a3f074d3131e9534"
+  }
+}
